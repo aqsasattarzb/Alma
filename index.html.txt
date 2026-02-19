@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALMA | Luxury Children's Wear</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f5f1ec;
+        color: #3d3a36;
+    }
+
+    header {
+        background: #ede6dc;
+        padding: 20px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+        font-size: 28px;
+    }
+
+    nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #3d3a36;
+        font-size: 14px;
+    }
+
+    .hero {
+        background: url('https://images.unsplash.com/photo-1618354691438-25bc04584c23') center/cover;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+    }
+
+    .hero h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        max-width: 500px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-top: 15px;
+        max-width: 400px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 12px 30px;
+        border: 1px solid #3d3a36;
+        text-decoration: none;
+        color: #3d3a36;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 80px 60px;
+    }
+
+    .section-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+
+    .product {
+        background: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .product h3 {
+        margin-top: 15px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    footer {
+        background: #e6dfd6;
+        padding: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>ALMA</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h2>Timeless Luxury for Little Souls</h2>
+        <p>Soft silhouettes, neutral tones, and soulfully crafted dresses for little girls.</p>
+        <a href="#" class="btn">Shop Collection</a>
+    </div>
+</div>
+
+<section>
+    <h2 class="section-title">Featured Collection</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+            <h3>Ivory Grace Dress</h3>
+            <p>$89</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1611095973763-414e61c13570">
+            <h3>Beige Bloom Dress</h3>
+            <p>$95</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5">
+            <h3>Soft Pearl Dress</h3>
+            <p>$99</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Our Story</h2>
+    <p style="max-width: 700px; margin: auto; text-align: center;">
+        ALMA means “soul.” Every piece is thoughtfully designed with comfort, elegance,
+        and timeless beauty at heart — for little girls who shine softly.
+    </p>
+</section>
+
+<footer>
+    © 2026 ALMA — Luxury Children’s Wear
+</footer>
+
+</body>
+</html>
